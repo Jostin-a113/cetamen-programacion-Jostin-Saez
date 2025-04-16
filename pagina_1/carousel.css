@@ -87,3 +87,18 @@
   }
 }
 
+.carousel-caption h1,
+.featurette-heading {
+  font-family: 'Minecraft', sans-serif;
+}
+
+.minecraft-font {
+  font-family: 'Minecraft', sans-serif;
+}
+
+body {
+  background: linear-gradient(to top, 
+  #8B0000 1%,  /* rojo oscuro comienza en el 30% del alto */
+  #009c22 80%  /* rojo claro en la parte superior */
+);
+}
