@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>InacapLand</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      body {
+        background-color: #e0e0e0;
+        font-family: 'Arial', sans-serif;
+      }
+
+      .navbar-brand {
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      footer {
+        background-color: #088f08;
+        color: white;
+        padding: 1rem 0;
+      }
+
+      .carousel-caption h1,
+      .featurette-heading {
+        font-family: 'Minecraft', sans-serif;
+      }
+    </style>
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" >InacapLand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pagina 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pagina 2</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> <img src="../Imagenes/2025-04-15_20.24.28.png" style="width: 100%; height: 100%; object-fit: cover;">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Mundos infinitos</h1>
+            <p>Explora cuevas, aldeas y fortalezas perdidas</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> <img src="../Imagenes/2024-06-08_20.24.55.png" style="width: 100%; height: 100%; object-fit: cover;">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Sobrevive a la noche</h1>
+            <p>Construye, protege y enfrenta criaturas oscuras</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg><img src="../Imagenes/2023-10-17_20.50.04.png" style="width: 100%; height: 100%; object-fit: cover;">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Creatividad sin límites</h1>
+            <p>Desde castillos hasta ciudades, ¡tú elijes!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="../Imagenes/image.png" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
+        <h2>Cuidado</h2>
+        <p>Desde zombies hasta esqueletos y más peligros ¡Cuidado por donde vas!</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="../Imagenes/2023-07-07_02.52.03.png" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
+
+        
+        <h2>Unete</h2>
+        <p>Crea la skin de tu personaje y unete con tus amigos a la aventura </p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="../Imagenes/herramientas.png" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
+
+        <h2>Crea herramientas</h2>
+        <p>Crea picos, hachas, palas y azadas para progresar en tu mundo</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Explora cuevas profundas y<span class="text-muted"> encuentra diamantes.</span></h2>
+        <p class="lead">Las minas están llenas de sorpresas, minerales y peligros. ¡No olvides tu pico de hierro!</p>
+      </div>
+      <div class="col-md-5">
+        <img src="../Imagenes/cueva.png" 
+             alt="Exploración en cuevas" 
+             class="featurette-image img-fluid mx-auto rounded" 
+             width="500" height="500" style="object-fit: cover;">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Redstone y mecanismos. <span class="text-muted">Automatiza tu mundo.</span></h2>
+        <p class="lead">¿Quieres crear puertas automáticas o trampas secretas? Aprende a dominar la redstone.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="../Imagenes/granjas.png" 
+             alt="Exploración en cuevas" 
+             class="featurette-image img-fluid mx-auto rounded" 
+             width="500" height="500" style="object-fit: cover;">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Viaja al Nether <span class="text-muted">y sobrevive si puedes.</span></h2>
+        <p class="lead">Un lugar hostil, pero lleno de recursos únicos. ¡Prepárate bien antes de entrar!</p>
+      </div>
+      <div class="col-md-5">
+        <img src="../Imagenes/nether.png" 
+             alt="Exploración en cuevas" 
+             class="featurette-image img-fluid mx-auto rounded" 
+             width="500" height="500" style="object-fit: cover;">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  
+
+      
+  </body>
+</html>
