@@ -97,8 +97,5 @@
 }
 
 body {
-  background: linear-gradient(to top, 
-  #8B0000 7%
-  #ffffff 80%
-);
+  background: linear-gradient(to top, #8B0000 7%, #ffffff 80%);
 }

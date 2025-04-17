@@ -47,37 +47,55 @@
       }
 
       .bg-gradient-rojo {
-        background: linear-gradient(to top, #009c22, #009c22); /* rojo oscuro abajo a rojo claro arriba */
-      } 
+        background: linear-gradient(to top, #009c22, #009c22); 
+      }
+
+      body {
+        font-family: 'Minecraft', sans-serif;
+      }
+
+      .titulo-inacap {
+        font-family: 'Minecraft', sans-serif;
+        font-size: 1.5rem;
+        color: white;
+      }
+      
     </style>
     <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="./carousel.css" rel="stylesheet">
   </head>
   <body>
     
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-gradient-rojo">
-    <div class="container-fluid minecraft-font">
-      <a class="navbar-brand d-flex align-items-center minecraft-font">
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">que es Minecraft?</h4>
+          <p class="text-muted">Minecraft es un videojuego de mundo abierto donde los jugadores pueden explorar, construir y sobrevivir en un entorno hecho completamente de bloques. Fue creado por Markus Persson y desarrollado por Mojang Studios. El juego permite a los usuarios recolectar recursos, crear herramientas, construir estructuras y enfrentarse a criaturas. Su estilo visual pixelado y su libertad creativa lo han convertido en uno de los juegos mas populares y vendidos de todos los tiempos. Tambien tiene distintos modos como Supervivencia, Creativo y Aventura, adaptandose a distintos tipos de jugadores.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <ul class="list-unstyled">
+            <li class="text-white">pagina 1</a></li>
+            <li><a href="../pagina_2/index.html" class="text-white">Pagina 2</a></li>
+            <li><a href="../pagina_3/index.html" class="text-white">pagina 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark shadow-sm" style="background-color: #009c22;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center">
         <img src="../Imagenes/images.png" alt="Logo" width="30" height="30" class="me-2">
         <span class="titulo-inacap">InacapLand</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../pagina_2/index.html">Pagina 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Pagina 3</a>
-          </li>
-        </ul>
-      </div>
     </div>
-  </nav>
+  </div>
 </header>
 
 <main>
